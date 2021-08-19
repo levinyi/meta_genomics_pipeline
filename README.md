@@ -6,6 +6,10 @@ cornavirus fasta need pre-build reference index before using this pipeline.
 
 or using nt database for blastn
 
+create a new prokka_env
+```
+conda activate prokka_env
+```
 
 ### 
 # note that prokka must using under prokka_env:
