@@ -23,7 +23,7 @@ conda activate prokka_env
 4) meghit
 5) humann3 database
 6) metaphlan3 database
-
+7) blastn to kraken2db
 example:
 ```
 cd example
