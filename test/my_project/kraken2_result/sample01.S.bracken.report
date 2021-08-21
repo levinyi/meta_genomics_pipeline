@@ -1,0 +1,75 @@
+100.00	58338	0	R	1	root
+100.00	58338	0	R1	131567	  cellular organisms
+100.00	58338	0	D	2	    Bacteria
+75.43	44005	0	D1	1783270	      FCB group
+75.43	44005	0	D2	68336	        Bacteroidetes/Chlorobi group
+75.43	44005	0	P	976	          Bacteroidetes
+75.43	44005	0	C	200643	            Bacteroidia
+75.43	44005	0	O	171549	              Bacteroidales
+40.20	23454	0	F	815	                Bacteroidaceae
+40.20	23454	0	G	816	                  Bacteroides
+23.60	13767	13767	S	28116	                    Bacteroides ovatus
+6.93	4044	4044	S	47678	                    Bacteroides caccae
+4.94	2880	2880	S	818	                    Bacteroides thetaiotaomicron
+1.74	1013	0	G1	2646097	                    unclassified Bacteroides
+1.67	976	976	S	2763022	                      Bacteroides sp. M10
+0.06	36	36	S	2715212	                      Bacteroides sp. CBA7301
+2.83	1649	1649	S	371601	                    Bacteroides xylanisolvens
+0.00	0	0	S	2650158	                    Bacteroides luhongzhouii
+0.00	0	0	S	1796613	                    Bacteroides caecimuris
+0.17	98	98	S	817	                    Bacteroides fragilis
+0.00	0	0	S	2650157	                    Bacteroides zhangwenhongi
+35.23	20551	0	O1	333046	                Bacteroidales incertae sedis
+35.23	20551	0	G	909656	                  Phocaeicola
+34.37	20053	20053	S	821	                    Phocaeicola vulgatus
+0.85	498	498	S	357276	                    Phocaeicola dorei
+15.48	9031	0	D1	1783272	      Terrabacteria group
+12.85	7498	0	P	1239	        Firmicutes
+9.52	5555	0	C	91061	          Bacilli
+9.52	5555	0	O	186826	            Lactobacillales
+5.47	3188	0	F	33958	              Lactobacillaceae
+5.47	3188	0	G	2767887	                Ligilactobacillus
+5.47	3188	3188	S	1624	                  Ligilactobacillus salivarius
+4.06	2366	0	F	1300	              Streptococcaceae
+4.06	2366	0	G	1301	                Streptococcus
+2.10	1225	1225	S	1304	                  Streptococcus salivarius
+0.00	0	0	S	1343	                  Streptococcus vestibularis
+0.65	381	381	S	1318	                  Streptococcus parasanguinis
+0.43	248	0	G1	2608887	                  unclassified Streptococcus
+0.00	0	0	S	2610896	                    Streptococcus sp. LPB0220
+0.43	248	248	S	1316408	                    Streptococcus sp. HSISM1
+0.00	0	0	S	1839799	                    Streptococcus sp. FDAARGOS_192
+0.00	0	0	S	2598457	                    Streptococcus sp. KS 6
+0.38	219	0	G1	671232	                  Streptococcus anginosus group
+0.38	219	219	S	1328	                    Streptococcus anginosus
+0.12	67	67	S	1308	                  Streptococcus thermophilus
+0.07	41	41	S	684066	                  Streptococcus lactarius
+0.11	62	62	S	1335	                  Streptococcus equinus
+0.21	121	121	S	33040	                  Streptococcus milleri
+3.33	1942	0	C	186801	          Clostridia
+3.33	1942	0	O	186802	            Eubacteriales
+2.21	1287	0	F	186803	              Lachnospiraceae
+2.21	1287	0	G	2316020	                Mediterraneibacter
+2.21	1287	1287	S	33038	                  [Ruminococcus] gnavus
+1.12	655	0	F	216572	              Oscillospiraceae
+1.12	655	0	G	216851	                Faecalibacterium
+1.12	655	655	S	853	                  Faecalibacterium prausnitzii
+2.63	1533	0	P	201174	        Actinobacteria
+2.63	1533	0	C	1760	          Actinomycetia
+2.63	1533	0	O	85004	            Bifidobacteriales
+2.63	1533	0	F	31953	              Bifidobacteriaceae
+2.63	1533	0	G	1678	                Bifidobacterium
+1.80	1048	1048	S	1689	                  Bifidobacterium dentium
+0.83	484	484	S	216816	                  Bifidobacterium longum
+9.09	5300	0	P	1224	      Proteobacteria
+9.09	5300	0	C	1236	        Gammaproteobacteria
+7.07	4121	0	O	91347	          Enterobacterales
+7.07	4121	0	F	543	            Enterobacteriaceae
+4.21	2454	0	G	570	              Klebsiella
+4.21	2454	2454	S	573	                Klebsiella pneumoniae
+2.86	1667	0	G	561	              Escherichia
+2.86	1667	1667	S	562	                Escherichia coli
+2.02	1178	0	O	135625	          Pasteurellales
+2.02	1178	0	F	712	            Pasteurellaceae
+2.02	1178	0	G	724	              Haemophilus
+2.02	1178	1178	S	729	                Haemophilus parainfluenzae

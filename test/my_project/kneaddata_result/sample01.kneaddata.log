@@ -1,0 +1,89 @@
+08/17/2021 11:06:44 AM - kneaddata.knead_data - INFO: Running kneaddata v0.10.0
+08/17/2021 11:06:44 AM - kneaddata.knead_data - INFO: Output files will be written to: /USB/meta_genomics_pipeline/test/my_project/kneaddata_result
+08/17/2021 11:06:44 AM - kneaddata.knead_data - DEBUG: Running with the following arguments: 
+verbose = False
+input = /USB/meta_genomics_pipeline/test/my_project/fastqc_result/sample01.raw.fastq.gz
+output_dir = /USB/meta_genomics_pipeline/test/my_project/kneaddata_result
+reference_db = /USB/meta_genomics_pipeline/database/kneaddata_database/hg37dec_v0.1
+bypass_trim = False
+output_prefix = sample01.kneaddata
+threads = 10
+processes = 10
+trimmomatic_quality_scores = -phred33
+bmtagger = False
+bypass_trf = False
+run_trf = False
+fastqc_start = False
+fastqc_end = False
+store_temp_output = False
+remove_intermediate_output = True
+cat_final_output = False
+log_level = DEBUG
+log = /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.log
+trimmomatic_path = /USB/tools/Trimmomatic-0.39/trimmomatic-0.39.jar
+run_trim_repetitive = True
+max_memory = 500m
+trimmomatic_options = None
+sequencer_source = TruSeq3
+bowtie2_path = /home/ceid/miniconda3/envs/prokka_env/bin/bowtie2
+bowtie2_options = --very-sensitive-local --phred33
+decontaminate_pairs = unpaired
+reorder = False
+serial = False
+bmtagger_path = None
+trf_path = /home/ceid/miniconda3/envs/prokka_env/bin/trf
+match = 2
+mismatch = 7
+delta = 7
+pm = 80
+pi = 10
+minscore = 50
+maxperiod = 500
+fastqc_path = fastqc
+remove_temp_output = True
+discordant = True
+
+08/17/2021 11:06:44 AM - kneaddata.utilities - INFO: Decompressing gzipped file ...
+08/17/2021 11:06:45 AM - kneaddata.utilities - INFO: Decompressed file created: /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/decompressed_7kv_13lo_sample01.raw.fastq
+08/17/2021 11:06:45 AM - kneaddata.utilities - INFO: READ COUNT: raw single : Initial number of reads ( /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/decompressed_7kv_13lo_sample01.raw.fastq ): 61076.0
+08/17/2021 11:06:45 AM - kneaddata.utilities - DEBUG: Creating output directory: /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/fastqc
+08/17/2021 11:06:45 AM - kneaddata.utilities - DEBUG: Checking input file to fastqc : /USB/meta_genomics_pipeline/test/my_project/fastqc_result/sample01.raw.fastq.gz
+08/17/2021 11:06:45 AM - kneaddata.utilities - INFO: Running fastqc ... 
+08/17/2021 11:06:45 AM - kneaddata.utilities - INFO: Execute command: fastqc /USB/meta_genomics_pipeline/test/my_project/fastqc_result/sample01.raw.fastq.gz --threads 10 --outdir /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/fastqc --extract
+08/17/2021 11:06:48 AM - kneaddata.utilities - DEBUG: b'Started analysis of sample01.raw.fastq.gz\nApprox 5% complete for sample01.raw.fastq.gz\nApprox 10% complete for sample01.raw.fastq.gz\nApprox 15% complete for sample01.raw.fastq.gz\nApprox 20% complete for sample01.raw.fastq.gz\nApprox 25% complete for sample01.raw.fastq.gz\nApprox 30% complete for sample01.raw.fastq.gz\nApprox 35% complete for sample01.raw.fastq.gz\nApprox 40% complete for sample01.raw.fastq.gz\nApprox 45% complete for sample01.raw.fastq.gz\nApprox 50% complete for sample01.raw.fastq.gz\nApprox 55% complete for sample01.raw.fastq.gz\nApprox 60% complete for sample01.raw.fastq.gz\nApprox 65% complete for sample01.raw.fastq.gz\nApprox 70% complete for sample01.raw.fastq.gz\nApprox 75% complete for sample01.raw.fastq.gz\nApprox 80% complete for sample01.raw.fastq.gz\nApprox 85% complete for sample01.raw.fastq.gz\nApprox 90% complete for sample01.raw.fastq.gz\nApprox 95% complete for sample01.raw.fastq.gz\nAnalysis complete for sample01.raw.fastq.gz\n'
+08/17/2021 11:06:48 AM - kneaddata.utilities - INFO: 
+>>Overrepresented sequences in /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/fastqc/sample01.raw_fastqc/fastqc_data.txt
+
+08/17/2021 11:06:48 AM - kneaddata.utilities - INFO: >>END_MODULE
+
+08/17/2021 11:06:48 AM - kneaddata.utilities - INFO: 
+>>No overrepresented sequences found in /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/fastqc/sample01.raw_fastqc/fastqc_data.txt Bypassing filtering for these sequences.
+
+08/17/2021 11:06:48 AM - kneaddata.utilities - INFO: >>Adapter Content	pass
+
+08/17/2021 11:06:48 AM - kneaddata.utilities - DEBUG: Checking input file to Trimmomatic : /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/decompressed_7kv_13lo_sample01.raw.fastq
+08/17/2021 11:06:48 AM - kneaddata.utilities - INFO: Running Trimmomatic ... 
+08/17/2021 11:06:48 AM - kneaddata.utilities - INFO: Execute command: java -Xmx500m -jar /USB/tools/Trimmomatic-0.39/trimmomatic-0.39.jar SE -threads 10 -phred33 /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/decompressed_7kv_13lo_sample01.raw.fastq /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fastq MINLEN:60 ILLUMINACLIP:/home/ceid/miniconda3/envs/prokka_env/lib/python3.7/site-packages/kneaddata/adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:48
+08/17/2021 11:06:49 AM - kneaddata.utilities - DEBUG: b"TrimmomaticSE: Started with arguments:\n -threads 10 -phred33 /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/decompressed_7kv_13lo_sample01.raw.fastq /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fastq MINLEN:60 ILLUMINACLIP:/home/ceid/miniconda3/envs/prokka_env/lib/python3.7/site-packages/kneaddata/adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:48\nUsing Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'\nUsing Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'\nILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences\nInput Reads: 61076 Surviving: 61015 (99.90%) Dropped: 61 (0.10%)\nTrimmomaticSE: Completed successfully\n"
+08/17/2021 11:06:49 AM - kneaddata.utilities - DEBUG: Checking output file from Trimmomatic : /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fastq
+08/17/2021 11:06:49 AM - kneaddata.utilities - INFO: READ COUNT: trimmed single : Total reads after trimming ( /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fastq ): 61015.0
+08/17/2021 11:06:49 AM - kneaddata.utilities - DEBUG: Checking input file to trf : /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fasta
+08/17/2021 11:06:49 AM - kneaddata.utilities - INFO: Running trf ... 
+08/17/2021 11:06:49 AM - kneaddata.utilities - INFO: Execute command: kneaddata_trf_parallel --input /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fasta --output /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fasta.trf.parameters.2.7.7.80.10.50.500.dat --trf-path /home/ceid/miniconda3/envs/prokka_env/bin/trf --trf-options '2 7 7 80 10 50 500 -h -ngs' --nproc 10
+08/17/2021 11:06:50 AM - kneaddata.utilities - DEBUG: 0
+08/17/2021 11:06:50 AM - kneaddata.utilities - DEBUG: Checking output file from trf : /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fasta.trf.parameters.2.7.7.80.10.50.500.dat
+08/17/2021 11:06:50 AM - kneaddata.run - INFO: Total number of sequences with repeats removed from file ( /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.trimmed.fastq ): 20
+08/17/2021 11:06:50 AM - kneaddata.run - INFO: Decontaminating ...
+08/17/2021 11:06:50 AM - kneaddata.utilities - DEBUG: Checking input file to bowtie2 : /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.repeats.removed.fastq
+08/17/2021 11:06:50 AM - kneaddata.utilities - INFO: Running bowtie2 ... 
+08/17/2021 11:06:50 AM - kneaddata.utilities - INFO: Execute command: /home/ceid/miniconda3/envs/prokka_env/bin/bowtie2 --threads 10 --very-sensitive-local --phred33 -x /USB/meta_genomics_pipeline/database/kneaddata_database/hg37dec_v0.1 -U /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.repeats.removed.fastq --un /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata_hg37dec_v0.1_bowtie2_clean.fastq --al /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata_hg37dec_v0.1_bowtie2_contam.fastq -S /dev/null
+08/17/2021 11:08:26 AM - kneaddata.utilities - DEBUG: b'60995 reads; of these:\n  60995 (100.00%) were unpaired; of these:\n    60928 (99.89%) aligned 0 times\n    0 (0.00%) aligned exactly 1 time\n    67 (0.11%) aligned >1 times\n0.11% overall alignment rate\n'
+08/17/2021 11:08:26 AM - kneaddata.utilities - DEBUG: Checking output file from bowtie2 : /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata_hg37dec_v0.1_bowtie2_clean.fastq
+08/17/2021 11:08:26 AM - kneaddata.run - INFO: Total contaminate sequences in file ( /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata_hg37dec_v0.1_bowtie2_contam.fastq ) : 67.0
+08/17/2021 11:08:26 AM - kneaddata.utilities - INFO: READ COUNT: decontaminated hg37dec_v0.1 single : Total reads after removing those found in reference database ( /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata_hg37dec_v0.1_bowtie2_clean.fastq ): 60928.0
+08/17/2021 11:08:26 AM - kneaddata.utilities - INFO: READ COUNT: final single : Total reads after merging results from multiple databases ( /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.fastq ): 60928.0
+08/17/2021 11:08:26 AM - kneaddata.utilities - WARNING: Unable to remove file: /USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata_hg37dec_v0.1_bowtie2_clean.fastq
+08/17/2021 11:08:26 AM - kneaddata.knead_data - INFO: 
+Final output file created: 
+/USB/meta_genomics_pipeline/test/my_project/kneaddata_result/sample01.kneaddata.fastq
+

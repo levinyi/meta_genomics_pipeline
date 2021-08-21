@@ -1,0 +1,136 @@
+# Pathway	sample01.kneaddata_Abundance
+UNMAPPED	2777.9903246080
+UNINTEGRATED	9130.7150584634
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus	4855.9449864627
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus	2293.8944313748
+UNINTEGRATED|unclassified	1872.8117016666
+UNINTEGRATED|g__Klebsiella.s__Klebsiella_variicola	1548.5949036467
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_caccae	1444.6769840613
+UNINTEGRATED|g__Lactobacillus.s__Lactobacillus_salivarius	1392.4180255945
+UNINTEGRATED|g__Streptococcus.s__Streptococcus_vestibularis	1077.0640412409
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron	792.4256160225
+UNINTEGRATED|g__Streptococcus.s__Streptococcus_salivarius	554.2345566230
+UNINTEGRATED|g__Streptococcus.s__Streptococcus_parasanguinis	507.7517463822
+PWY-6700: queuosine biosynthesis I (de novo)	1440.9499901550
+PWY-6700: queuosine biosynthesis I (de novo)|g__Bacteroides.s__Bacteroides_vulgatus	619.5902766678
+PWY-6700: queuosine biosynthesis I (de novo)|g__Bacteroides.s__Bacteroides_ovatus	482.3698604803
+PWY-6700: queuosine biosynthesis I (de novo)|g__Bacteroides.s__Bacteroides_caccae	101.4604080550
+PWY-6700: queuosine biosynthesis I (de novo)|unclassified	34.4282776024
+PWY-6700: queuosine biosynthesis I (de novo)|g__Bacteroides.s__Bacteroides_thetaiotaomicron	34.2191748057
+PWY-6700: queuosine biosynthesis I (de novo)|g__Klebsiella.s__Klebsiella_variicola	29.7587631154
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	1421.2090266001
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	550.2890979981
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_ovatus	480.1301693404
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_caccae	102.7208543432
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Lactobacillus.s__Lactobacillus_salivarius	87.5484749467
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|unclassified	52.4852904601
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	43.6505204148
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Klebsiella.s__Klebsiella_variicola	33.4992118458
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Streptococcus.s__Streptococcus_salivarius	20.1049564610
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Streptococcus.s__Streptococcus_vestibularis	18.8581805994
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)	1223.1862920047
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|g__Bacteroides.s__Bacteroides_ovatus	332.6184679636
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)|unclassified	102.7635803740
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	1168.2579449403
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	530.8043892394
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_ovatus	337.2241764621
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|unclassified	94.3553637592
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	1140.9676303583
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	525.1207010959
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_ovatus	329.1752985951
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|unclassified	98.4931602109
+PWY-5686: UMP biosynthesis I	1062.6662803224
+PWY-5686: UMP biosynthesis I|g__Bacteroides.s__Bacteroides_ovatus	361.5228289209
+PWY-5686: UMP biosynthesis I|unclassified	98.8136951295
+PWY-5686: UMP biosynthesis I|g__Bacteroides.s__Bacteroides_caccae	82.3491138692
+PWY-5686: UMP biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	46.7839942500
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)	1051.0131995587
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)|unclassified	103.4315211585
+NONMEVIPP-PWY: methylerythritol phosphate pathway I	988.2110010927
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Bacteroides.s__Bacteroides_vulgatus	479.1474483085
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Bacteroides.s__Bacteroides_ovatus	244.2565041788
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|unclassified	56.6761252087
+NONMEVIPP-PWY: methylerythritol phosphate pathway I|g__Klebsiella.s__Klebsiella_variicola	21.4904126661
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	974.5705732910
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_vulgatus	566.1476244773
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|unclassified	53.3990351703
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Klebsiella.s__Klebsiella_variicola	33.0542042689
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Streptococcus.s__Streptococcus_salivarius	19.1245233875
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Streptococcus.s__Streptococcus_vestibularis	14.9373702332
+PWY-5695: inosine 5'-phosphate degradation	969.7150141392
+PWY-5695: inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_vulgatus	492.2262495412
+PWY-5695: inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_caccae	96.2270435187
+PWY-5695: inosine 5'-phosphate degradation|unclassified	80.3487795989
+PWY-5695: inosine 5'-phosphate degradation|g__Klebsiella.s__Klebsiella_variicola	39.5126845913
+PWY-5695: inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_thetaiotaomicron	33.6684376390
+PWY-5695: inosine 5'-phosphate degradation|g__Streptococcus.s__Streptococcus_vestibularis	16.5017239745
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	922.7687980113
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	515.5259484459
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|unclassified	45.7180434897
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_variicola	29.1304937537
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Streptococcus.s__Streptococcus_vestibularis	13.6775379078
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	723.9453397607
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	600.4454994147
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|unclassified	47.6343828095
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_variicola	31.2051013796
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Streptococcus.s__Streptococcus_vestibularis	11.5533554530
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	723.9453397607
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	600.4454994147
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|unclassified	47.6343828095
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Klebsiella.s__Klebsiella_variicola	31.2051013796
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Streptococcus.s__Streptococcus_vestibularis	11.5533554530
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate	561.0357008758
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate|unclassified	92.5105018870
+PWY-6270: isoprene biosynthesis I	341.9807771891
+PWY-6270: isoprene biosynthesis I|unclassified	45.8128856304
+PWY-7560: methylerythritol phosphate pathway II	321.6624055669
+PWY-7560: methylerythritol phosphate pathway II|unclassified	54.0503838337
+PWY0-1296: purine ribonucleosides degradation	293.4350571582
+PWY0-1296: purine ribonucleosides degradation|unclassified	97.4323907632
+PWY0-1296: purine ribonucleosides degradation|g__Klebsiella.s__Klebsiella_variicola	28.6124472101
+PWY0-1296: purine ribonucleosides degradation|g__Streptococcus.s__Streptococcus_vestibularis	16.7311351019
+PWY0-1296: purine ribonucleosides degradation|g__Streptococcus.s__Streptococcus_salivarius	8.9308279319
+PWY-5897: superpathway of menaquinol-11 biosynthesis	244.7821406759
+PWY-5897: superpathway of menaquinol-11 biosynthesis|unclassified	38.0122908590
+PWY-5898: superpathway of menaquinol-12 biosynthesis	244.7821406759
+PWY-5898: superpathway of menaquinol-12 biosynthesis|unclassified	38.0122908590
+PWY-5899: superpathway of menaquinol-13 biosynthesis	244.7821406759
+PWY-5899: superpathway of menaquinol-13 biosynthesis|unclassified	38.0122908590
+PWY-5838: superpathway of menaquinol-8 biosynthesis I	189.2943495283
+PWY-5838: superpathway of menaquinol-8 biosynthesis I|unclassified	32.0681911998
+PWY-5840: superpathway of menaquinol-7 biosynthesis	189.2943495283
+PWY-5840: superpathway of menaquinol-7 biosynthesis|unclassified	32.0681911998
+PWY-5845: superpathway of menaquinol-9 biosynthesis	189.2943495283
+PWY-5845: superpathway of menaquinol-9 biosynthesis|unclassified	32.0681911998
+PWY-5850: superpathway of menaquinol-6 biosynthesis	189.2943495283
+PWY-5850: superpathway of menaquinol-6 biosynthesis|unclassified	32.0681911998
+PWY-5896: superpathway of menaquinol-10 biosynthesis	189.2943495283
+PWY-5896: superpathway of menaquinol-10 biosynthesis|unclassified	32.0681911998
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)	177.2895343915
+PYRIDNUCSYN-PWY: NAD de novo biosynthesis I (from aspartate)|unclassified	62.7013342780
+PWY-6353: purine nucleotides degradation II (aerobic)	173.5488715943
+PWY-6608: guanosine nucleotides degradation III	171.6068991645
+PWY-6608: guanosine nucleotides degradation III|unclassified	80.3487795989
+PWY-6608: guanosine nucleotides degradation III|g__Klebsiella.s__Klebsiella_variicola	32.5598913943
+SALVADEHYPOX-PWY: adenosine nucleotides degradation II	147.2601458744
+SALVADEHYPOX-PWY: adenosine nucleotides degradation II|unclassified	82.7439334956
+GLUTORN-PWY: L-ornithine biosynthesis I	135.8038926949
+GLUTORN-PWY: L-ornithine biosynthesis I|unclassified	54.9328562704
+PWY-5860: superpathway of demethylmenaquinol-6 biosynthesis I	135.4006430644
+PWY-5860: superpathway of demethylmenaquinol-6 biosynthesis I|unclassified	33.3897673765
+PWY-5861: superpathway of demethylmenaquinol-8 biosynthesis I	135.4006430644
+PWY-5861: superpathway of demethylmenaquinol-8 biosynthesis I|unclassified	33.3897673765
+PWY-5862: superpathway of demethylmenaquinol-9 biosynthesis	135.4006430644
+PWY-5862: superpathway of demethylmenaquinol-9 biosynthesis|unclassified	33.3897673765
+PWY-6609: adenine and adenosine salvage III	109.0924700617
+PWY-6609: adenine and adenosine salvage III|g__Streptococcus.s__Streptococcus_vestibularis	17.1928225804
+PWY-6609: adenine and adenosine salvage III|g__Klebsiella.s__Klebsiella_variicola	15.6518976447
+PWY-6609: adenine and adenosine salvage III|g__Streptococcus.s__Streptococcus_parasanguinis	12.2142193897
+PWY-6609: adenine and adenosine salvage III|g__Streptococcus.s__Streptococcus_salivarius	8.4411133782
+PWY-5791	97.4873192252
+PWY-5791|unclassified	26.5036059602
+PWY-5837: 2-carboxy-1,4-naphthoquinol biosynthesis	97.4873192252
+PWY-5837: 2-carboxy-1,4-naphthoquinol biosynthesis|unclassified	46.5231048474
+PWY-6606: guanosine nucleotides degradation II	47.4163738151
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)	17.2585647381
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)|unclassified	17.2585647381

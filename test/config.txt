@@ -1,0 +1,55 @@
+[config]
+
+project_name = my_project
+script_dir = ../bin
+
+# software:
+python = python3
+
+[kneaddata]
+kneaddata = kneaddata
+kneaddata_ref = /USB/meta_genomics_pipeline/database/kneaddata_database
+# sequence_source: choose from 'NexteraPE', 'TruSeq2', 'TruSeq3', 'none'
+sequence_source = TruSeq3
+
+[kraken2]
+kraken2   = /USB/meta_genomics_pipeline/bin/kraken2
+kraken2_db = /USB/meta_genomics_pipeline/database/kraken2_database
+kraken2_threads = 4
+
+[braken]
+# bracken path must be the source path, do not use linked path.
+# bracken   = /cygene/software/biosoftware/metagenomics/Bracken/bracken
+bracken   = /USB/tools/Bracken-2.6.2/bracken
+# database must for 250
+bracken_read_length = 250
+# CLASSIFICATION_LEVEL [Default = 'S', Options = 'D','P','C','O','F','G','S']
+classification_level = S
+kreport2mpa = /USB/meta_genomics_pipeline/bin/kreport2mpa.py
+
+[humann]
+humann   = /USB/meta_genomics_pipeline/bin/humann
+humann_db     = /USB/meta_genomics_pipeline/database/humann3_dbs
+metaphlan3_db = /USB/meta_genomics_pipeline/database/metaphlan3_database
+
+[blastn]
+blastn_dbs = /USB/meta_genomics_pipeline/database/blastn_dbs
+outfmt = 6
+num_threads = 32
+[megahit]
+megahit   = /USB/meta_genomics_pipeline/bin/megahit
+# megahit : minimum length of contigs to output [200]
+min-contig-len = 500
+
+[quast]
+quast     = /USB/meta_genomics_pipeline/bin/metaquast.py
+
+[prokka]
+prokka    = prokka
+
+[cdhit]
+cd-hit    = /USB/meta_genomics_pipeline/bin/cd-hit
+
+[salmon]
+salmon    = /USB/meta_genomics_pipeline/bin/salmon
+

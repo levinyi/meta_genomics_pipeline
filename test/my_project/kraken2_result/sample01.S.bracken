@@ -1,0 +1,33 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Bacteroides ovatus	28116	S	7388	6379	13767	0.23599
+Bacteroides caccae	47678	S	4240	-196	4044	0.06932
+Bacteroides thetaiotaomicron	818	S	2531	349	2880	0.04937
+Bacteroides xylanisolvens	371601	S	1004	645	1649	0.02827
+Bacteroides sp. M10	2763022	S	632	344	976	0.01673
+Bacteroides sp. CBA7301	2715212	S	36	0	36	0.00062
+Bacteroides luhongzhouii	2650158	S	184	-184	0	0.00000
+Bacteroides caecimuris	1796613	S	66	-66	0	0.00000
+Bacteroides fragilis	817	S	56	42	98	0.00168
+Bacteroides zhangwenhongi	2650157	S	50	-50	0	0.00000
+Phocaeicola vulgatus	821	S	15154	4899	20053	0.34374
+Phocaeicola dorei	357276	S	407	91	498	0.00854
+Streptococcus salivarius	1304	S	639	586	1225	0.02100
+Streptococcus vestibularis	1343	S	568	-568	0	0.00000
+Streptococcus parasanguinis	1318	S	472	-91	381	0.00653
+Streptococcus sp. LPB0220	2610896	S	178	-178	0	0.00000
+Streptococcus sp. HSISM1	1316408	S	142	106	248	0.00425
+Streptococcus sp. FDAARGOS_192	1839799	S	16	-16	0	0.00000
+Streptococcus sp. KS 6	2598457	S	15	-15	0	0.00000
+Streptococcus anginosus	1328	S	81	138	219	0.00375
+Streptococcus thermophilus	1308	S	57	10	67	0.00115
+Streptococcus lactarius	684066	S	36	5	41	0.00070
+Streptococcus equinus	1335	S	19	43	62	0.00106
+Streptococcus milleri	33040	S	17	104	121	0.00207
+Ligilactobacillus salivarius	1624	S	3251	-63	3188	0.05465
+[Ruminococcus] gnavus	33038	S	1286	1	1287	0.02206
+Faecalibacterium prausnitzii	853	S	918	-263	655	0.01123
+Bifidobacterium dentium	1689	S	1046	2	1048	0.01796
+Bifidobacterium longum	216816	S	465	19	484	0.00830
+Klebsiella pneumoniae	573	S	41	2413	2454	0.04207
+Escherichia coli	562	S	118	1549	1667	0.02857
+Haemophilus parainfluenzae	729	S	1205	-27	1178	0.02019
