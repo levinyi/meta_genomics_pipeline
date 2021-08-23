@@ -24,10 +24,19 @@ conda activate prokka_env
 5) humann3 database
 6) metaphlan3 database
 7) blastn to kraken2db
+
 example:
 ```
 cd example
-# configuring data.list and config.txt then run:
+# configuring data.list and config.txt :
+vi data.list
+vi config.txt
+# then run:
 sh work.sh
+# then will generate a project folder
+# go to the folder
+cd <project_folder>
+sh project_folder.metagenomics.sh
+or nohup sh xxx.sh &
 
 ```
